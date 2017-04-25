@@ -1,0 +1,29 @@
+= To Deploy a Mule Application Using Runtime Manager
+
+1. Frome Anypoint Platform, click Runtime Manager.
+1. Click Deploy Application.
+1. Provide an application name.
+1. Select a deployment target from the drop down list.
+1. Select the application you want to deploy:
+	- Click Choose File to select an application from your local file system
+	- Click Get from sanbox to select an application ...
+1. Select a Mule runtime version
+1. Select a worker size
+1. Select the number of workers
+1. Select a region.
+1. Enable the following as required:
+	- Automatically restart applications when not responding
+	- Persistent queues
+	- Encrypt persistent queues
+	- Disable CloudHub logs
+
+1. Click Deploy Application
+
+== See Also
+
+- About Mule Runtimes
+- About Workers
+- To Set Properties When Deploying a Mule Application
+- To Configure Insight When Deploying a Mule Application
+- To Configure Logging When Deploying a Mule Application
+- To Configure Static IPs When Deploying a Mule Application
